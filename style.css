@@ -5,7 +5,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #ffe6f2;
-    color: #ff69b4;
+    color: #47daae;
     text-align: center;
 }
 
@@ -15,9 +15,9 @@ body {
     height: 100px;
     margin: 20px auto;
     border-radius: 50%;
-    background: linear-gradient(45deg, #ff69b4, #ffb6c1);
+    background: linear-gradient(45deg, #15306b, #ffb6c1);
     animation: rotate 4s infinite linear;
-    box-shadow: 0 0 15px rgba(255, 182, 193, 0.6);
+    box-shadow: 0 0 15px rgba(202, 202, 202, 0.6);
 }
 
 @keyframes rotate {
@@ -31,11 +31,11 @@ body {
 
 /* En-tête */
 header {
-    background: #ffb6c1;
+    background: #27751c;
     color: #fff;
     padding: 1rem 0;
-    border-bottom: 5px solid #ff69b4;
-    text-shadow: 1px 1px 2px #d83378;
+    border-bottom: 5px solid #4d1497;
+    text-shadow: 1px 1px 2px #278a08;
 }
 
 header h1 {
@@ -86,7 +86,7 @@ a {
 }
 
 a:hover {
-    color: #d83378;
+    color: #a3a125;
 }
 
 /* Pied de page */
@@ -94,7 +94,7 @@ footer {
     text-align: center;
     padding: 10px 0;
     background: #ffb6c1;
-    color: #fff;
+    color: #ac1717;
     margin-top: 20px;
-    border-top: 5px solid #ff69b4;
+    border-top: 5px solid #63025e;
 }
