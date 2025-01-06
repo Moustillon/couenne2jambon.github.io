@@ -1,0 +1,70 @@
+/* Add to existing CSS file or create new one */
+@font-face {
+    font-family: 'Argentum Sans';
+    src: url('fonts/ArgentumsansRegular.ttf') format('truetype');
+}
+
+body {
+    display: flex;
+    justify-content: center;
+
+    background-color: #b2dbd3;
+    font-family: 'Argentum Sans', sans-serif;
+    background-image: url('img/background.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+    min-height: 100vh;
+}
+
+.profile-pic {
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #ff8c00;
+}
+
+#pp-container {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+nav ul li a {
+    display: block;
+    padding: 10px 20px;
+    background-color: #ff8c00;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    min-width: 150px;
+    text-align: center;
+}
+
+nav ul li a:hover {
+    background-color: #ff7000;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    text-align: center;
+    color: rgb(134, 134, 134);
+    font-size: 0.8rem;
+    padding: 20px;
+}
